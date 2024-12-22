@@ -6,7 +6,7 @@ hero:
   text: "A VitePress Site"
   tagline: My Programming Documents
   image:
-    src: /index.png
+    src: /Public/index.png
     alt: VitePress
   actions:
     - theme: brand

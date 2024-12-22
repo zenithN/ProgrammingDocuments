@@ -31,6 +31,7 @@ export default defineConfig({
           items: [
             { text: "目录", link: "/CSharp/" },
             { text: "泛型", link: "/CSharp/泛型" },
+            { text: "正则", link: "/CSharp/正则" },
           ],
         },
       ],
@@ -59,7 +60,10 @@ export default defineConfig({
         {
           text: "Project",
           collapsed: false,
-          items: [{ text: "目录", link: "/Project/" }],
+          items: [
+            { text: "目录", link: "/Project/" },
+            { text: "重复图片核查", link: "/Project/重复图片核查" },
+          ],
         },
       ],
 
@@ -67,7 +71,10 @@ export default defineConfig({
         {
           text: "Tools",
           collapsed: false,
-          items: [{ text: "目录", link: "/Tools/" }],
+          items: [
+            { text: "目录", link: "/Tools/" },
+            { text: "Github", link: "/Tools/Github" },
+          ],
         },
       ],
     },
